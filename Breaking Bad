@@ -1,0 +1,89 @@
+print ('Responder a las preguntas con si o no en minúsculas')
+calvo = input ('Es calvo?')
+malvado = input ('Es malvado?')
+inteligencia = input ('Es inteligente?')
+importancia = input ('Es importante?')
+if calvo == 'si':
+  if malvado == 'si':
+    if inteligencia == 'si':
+      if importancia == 'si':
+        print ('El personaje es Walter White. Heisenberg. El que llama a la puerta.')
+if calvo == 'no':
+  if malvado == 'no':
+    if inteligencia == 'no':
+      if importancia == 'si':
+        print ('El personaje es Jesse Pinkman. Siempre en el lugar equivocado y en el momento equivocado.')
+if calvo == 'no':
+  if malvado == 'si':
+    if inteligencia == 'si':
+      if importancia == 'si':
+        print ('El personaje es Gustavo Fring. Bienvenido a Los Pollos Hermanos.')
+if calvo == 'si':
+  if malvado == 'no':
+    if inteligencia == 'si':
+      if importancia == 'si':
+        print ('El personaje es Mike Ehrmentraut. Haberle disparado a Jesse James no te convierte en Jesse James.')
+if calvo == 'no':
+  if malvado == 'no':
+    if inteligencia == 'si':
+      if importancia == 'no':
+        print ('El personaje es Gale Boetticher, perro problemático. No se merecía lo que le pasó.')
+if calvo == 'si':
+  if malvado == 'si':
+    if inteligencia == 'no':
+      if importancia == 'si':
+        print ('El personaje es Jack Welker. Una muerte muy satisfactoria.')
+if calvo == 'no':
+  if malvado == 'si':
+    if inteligencia == 'no':
+      if importancia == 'no':
+        print ('El personaje es Lydia Rodarte-Quayle, la cobarde.')
+if calvo == 'no':
+  if malvado == 'si':
+    if inteligencia == 'si':
+      if importancia == 'no':
+        print ('El personaje es Todd Alquist. Odiado y con razón.')
+if calvo == 'si':
+  if malvado == 'si':
+    if inteligencia == 'no':
+      if importancia == 'no':
+        print ('El personaje es Tuco Salamanca. No te interesa que te mire con mala cara.')
+if calvo == 'si':
+  if malvado == 'si':
+    if inteligencia == 'si':
+      if importancia == 'no':
+        print ('Los personajes son los Gemelos Salamanca. Sicarios fallidos.')
+if calvo == 'no':
+  if malvado == 'si':
+    if inteligencia == 'no':
+      if importancia == 'si':
+        print ('El personaje es Hector Salamanca. Ding ding ding ding ding ding ding')
+if calvo == 'si':
+  if malvado == 'no':
+    if inteligencia == 'no':
+      if importancia == 'si':
+        print ('El personaje es Hank Schrader, el bueno de la serie.')
+if calvo == 'si':
+  if malvado == 'no':
+    if inteligencia == 'si':
+      if importancia == 'no':
+        print ('El personaje es Huell Babineaux. Better Fuel Huell.')
+if calvo == 'si':
+  if malvado == 'no':
+    if inteligencia == 'no':
+      if importancia == 'no':
+        print ('El personaje es Combo. No te culpo si no lo recuerdas.')
+if calvo == 'no':
+  if malvado == 'no':
+    if inteligencia == 'si':
+      if importancia == 'si':
+        print ('El personaje es Saul Goodman. Sabías que tienes derechos?')
+if calvo == 'no':
+  if malvado == 'no':
+    if inteligencia == 'no':
+      if importancia == 'no':
+        print ('El personaje es Ted Beneke, inútil hasta la médula. Literalmente.')
+
+print ()
+print ()
+print ('Hay 16 posibles personajes, prueba a introducir distintas respuestas para obtener distintos resultados')
