@@ -1,8 +1,23 @@
-print ('Responder a las preguntas con si o no en minúsculas')
-calvo = input ('Es calvo?')
-malvado = input ('Es malvado?')
-inteligencia = input ('Es inteligente?')
-importancia = input ('Es importante?')
+print ('''
+
+----------------------------------------------------
+
+Responde a las preguntas usando 'si' o 'no'.
+
+----------------------------------------------------
+
+Hay 16 posibles personajes, prueba a introducir distintas respuestas para obtener distintos resultados.
+
+----------------------------------------------------
+''')
+comenzar= input('pulsa intro para comenzar')
+print('''
+----------------------------------------------------
+''')
+calvo = input ('Es calvo? ')
+malvado = input ('Es malvado? ')
+inteligencia = input ('Es inteligente? ')
+importancia = input ('Es importante? ')
 if calvo == 'si':
   if malvado == 'si':
     if inteligencia == 'si':
@@ -83,7 +98,3 @@ if calvo == 'no':
     if inteligencia == 'no':
       if importancia == 'no':
         print ('El personaje es Ted Beneke, inútil hasta la médula. Literalmente.')
-
-print ()
-print ()
-print ('Hay 16 posibles personajes, prueba a introducir distintas respuestas para obtener distintos resultados')
